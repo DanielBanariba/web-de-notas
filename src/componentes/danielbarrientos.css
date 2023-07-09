@@ -1,0 +1,105 @@
+body{
+    background-image: radial-gradient(circle at 22.89% 31.02%, #ff81ba 0, #ff78c1 10%, #fb6ec7 20%, #eb65cd 30%, #d75cd3 40%, #be55d8 50%, #a050dd 60%, #7c4fe3 70%, #4750e8 80%, #0052ed 90%, #0054f0 100%);
+    align-items: center;
+}
+
+/*
+    ListaApp.js
+*/
+
+.todoContainer{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.todoCreateForm{
+    
+}
+
+.todoInput{
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 5px;
+    border: 1px solid #e864ce;
+    font: oblique bold 2em cursive;
+}
+
+.buttonCreate{
+    background-color: transparent;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: 0.050px solid #0097ff;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    font: oblique bold 2em cursive;
+}
+
+.buttonCreate:hover{
+    background: linear-gradient(to right, #0097ff 0%,#de48b5 100%); 
+}
+
+/*
+    Todo.js
+*/
+
+.todo{
+
+}
+
+.todoUpdateForm{
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font: oblique bold 2em cursive;
+}
+
+.button{
+    background-color: rgba(17, 201, 27, 0.3);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid rgba(17, 201, 27, 0.3);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font: oblique bold 0.70em cursive;
+}
+
+.button:hover{
+    background-color: #11c91b; /* Green */
+    color: whitesmoke;
+}
+
+.todoInfo{
+    font: oblique bold 3em cursive;
+    color: #0053ee;
+}
+
+.buttonDelete{
+    background-color: rgba(223, 31, 17, 0.3);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: whitesmoke;
+    border: 2px solid rgba(223, 31, 17, 0.3);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font: oblique bold 0.70em cursive;
+}
+
+.buttonDelete:hover{
+    background-color: #f44336; /* Green */
+    color: white;
+}
